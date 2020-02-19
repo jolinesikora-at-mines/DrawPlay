@@ -14,7 +14,15 @@ public class MyDrawing extends JPanel {
 	// paintComponent is called automatically when the frame needs
 	// to display (e.g., when the program starts)
 	public void paintComponent(Graphics g) {
+<<<<<<< HEAD
 		cat.draw(g, 75, 75);
+=======
+<<<<<<< HEAD
+		cat.draw(g, 10, 10);
+=======
+		cat.draw(g, 100, 75);
+>>>>>>> 993f03506fb189ec582432d8436f5e95c21b8689
+>>>>>>> 5047e03e65a87aaa45657f43629d1df7b4440941
 	}
 	
 	/**
@@ -27,7 +35,7 @@ public class MyDrawing extends JPanel {
 		// Program will end when the window is closed
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// Set the size (otherwise only title bar displays)
-		frame.setSize(400, 400);
+		frame.setSize(800, 800);
 		
 		// Frame will not display until you set visible true
 		frame.setVisible(true);
